@@ -7,7 +7,7 @@ import { helper } from '@/app/helper'
 
 const app = express();
 const BASE_API = '/api'
-const port = 8000;
+const port = 4000;
 
 app.use(cors())
 app.use(express.json())
